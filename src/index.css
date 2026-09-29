@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-app: #F5F7FA;
+    --surface: #FFFFFF;
+    --text-primary: #172033;
+    --text-secondary: #667085;
+    --text-muted: #98A2B3;
+    --border-color: #E4E7EC;
+    --border-subtle: #F2F4F7;
+    --accent-blue: #2563EB;
+    --critical-red: #DC2626;
+    --warning-amber: #D97706;
+    --success-green: #16A34A;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--bg-app);
+    color: var(--text-primary);
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Clinical Radiology PACS Canvas Area */
+.pacs-canvas-bg {
+  background-color: #07090E;
+}
+
+/* Subtle clean table scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Focus outlines for clinical accessibility */
+*:focus-visible {
+  outline: 2px solid #2563EB;
+  outline-offset: 1px;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "RadiAssist - AI Radiology Workflow Copilot",
+  "description": "AI-powered radiology workflow copilot featuring intelligent triage, smart worklist prioritization, interactive medical imaging review, structured report generation, critical alert escalation, and study comparison.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
